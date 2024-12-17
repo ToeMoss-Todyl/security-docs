@@ -65,7 +65,21 @@ If you have not granted Full Disk Access, the following notification prompt will
 [role="screenshot"]
 image::install-endpoint-ven/allow_full_disk_access_notification_ven.png[]
 
-To enable Full Disk Access, you must manually approve {elastic-endpoint}. 
+=== To enable Full Disk Access for macOS 15 and above, you must manually approve {elastic-endpoint}. 
+. Open the *System Settings* application.
+. In the left pane, search for *Login Items & Extensions*.
++ 
+**screenshot**
++
+. Scroll to the lower "Extensions" section
+. Next to "Endpoint Security Extensions" select the "i" 
+. Activate the toggle next to "ElasticEndpoint.app"
++ 
+**screenshot**
++
+
+
+=== To enable Full Disk Access for macOS 14 and below, you must manually approve {elastic-endpoint}. 
 
 NOTE: The following instructions apply only to {elastic-endpoint} version 8.0.0 and later. To see Full Disk Access requirements for the Endgame sensor, refer to Endgame's documentation.
 
